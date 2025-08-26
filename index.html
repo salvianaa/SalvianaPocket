@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Celengan Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Celengan Digital</h1>
+
+    <input type="number" id="targetInput" placeholder="Target Tabungan (Rp)">
+    <button onclick="setTarget()">Set Target</button>
+
+    <input type="number" id="amountInput" placeholder="Tambah Tabungan (Rp)">
+    <button onclick="addSavings()">Tambah</button>
+
+    <p id="totalTabungan">Total Tabungan: Rp0</p>
+    <p id="targetTabungan">Target: Rp0</p>
+    <p id="persentase">Pencapaian: 0%</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
